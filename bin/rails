@@ -1,6 +1,10 @@
 #!/usr/bin/env ruby
 begin
+<<<<<<< HEAD
   load File.expand_path('../spring', __FILE__)
+=======
+  load File.expand_path("../spring", __FILE__)
+>>>>>>> 30fb7ab55d13c950614fd8edd5fadd3e52ff7096
 rescue LoadError
 end
 APP_PATH = File.expand_path('../../config/application', __FILE__)
