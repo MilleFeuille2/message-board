@@ -4,8 +4,8 @@ class MessagesController < ApplicationController
   end
   
   def create
-    @messages = Message.new(message_params)
-    @messages.save
+    @message = Message.new(message_params)
+    @message.save
     redirect_to root_path, notice: 'メッセージを保存しました'
   end
   
